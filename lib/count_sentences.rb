@@ -28,7 +28,6 @@ class String
 
   def count_sentences #call on a string 
     self.split(/\W\s/).count 
-    binding.pry
   end
   
   #use self keyword
