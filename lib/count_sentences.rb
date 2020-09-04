@@ -30,7 +30,6 @@ class String
     counting = []
     counting << self.split(/\.|\!|\?/) #need to negate punctuation marks b/c they exist as regular RegEx 
     counting.count 
-    binding.pry
   end
 end
 
