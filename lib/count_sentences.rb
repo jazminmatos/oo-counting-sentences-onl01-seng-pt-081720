@@ -27,10 +27,8 @@ class String
   end
 
   def count_sentences #call on a string 
-    counting = []
-    counting << self.split(/\.|\!|\?/).delete_if {|string| string.size < 2} #need to negate punctuation marks b/c they exist as regular RegEx 
-    counting.count 
-    binding.pry
+   self.split(/\.|\!|\?/).delete_if {|string| string.size < 2}.count #need to negate punctuation marks b/c they exist as regular RegEx
+   binding.pry
   end
 end
 
