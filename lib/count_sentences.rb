@@ -30,5 +30,6 @@ class String
     counting = []
     counting << self.split(/\W\s/).reject!{|element| element.empty?}
     counting.count 
+    binding.pry
   end
 end
