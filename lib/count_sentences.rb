@@ -30,6 +30,7 @@ class String
     counting = []
     counting << self.split(/\W\s/)
     counting.count 
+    binding.pry
   end
   
   #use self keyword
