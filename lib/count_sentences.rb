@@ -29,6 +29,6 @@ class String
   def count_sentences #call on a string 
     counting = []
     counting << self.split(/\W\s/)
-    counting.reject{|element| element.empty?}.count 
+    counting.reject!{|element| element.empty?}.count 
   end
 end
