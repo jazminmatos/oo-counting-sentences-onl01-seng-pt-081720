@@ -28,8 +28,7 @@ class String
 
   def count_sentences #call on a string 
     counting = []
-    counting << self.split(/\W\s/)
-    counting.count 
+    counting << self.split(/\W\s/).count 
     binding.pry
   end
   
