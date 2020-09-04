@@ -28,7 +28,7 @@ class String
 
   def count_sentences #call on a string 
     counting = []
-    counting << self.split(/) #need to negate punctuation marks b/c they exist as regular RegEx 
+    counting << self.split(/\.|\!|\?/) #need to negate punctuation marks b/c they exist as regular RegEx 
     counting.count 
     binding.pry
   end
