@@ -30,7 +30,4 @@ class String
     self.split(/\W\s/).reject{|element| element.empty?}.count 
     binding.pry
   end
-  
-  #use self keyword
-  
 end
