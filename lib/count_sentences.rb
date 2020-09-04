@@ -33,3 +33,5 @@ class String
     binding.pry
   end
 end
+
+#.reject!{|element| element.empty?}
