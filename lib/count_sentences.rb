@@ -30,6 +30,7 @@ class String
     counting = []
     counting << self.split(/\.|\!|\?/).delete_if {|string| string.size < 2} #need to negate punctuation marks b/c they exist as regular RegEx 
     counting.count 
+    binding.pry
   end
 end
 
